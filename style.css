@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("Images/pixel_weave.png");
+}
+
+.section{
+    padding: 0px 60px;
+}
+
+.logo{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: black;
+    font-weight: 700;
+}
+
+.links a{
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+    /* margin-top: 8px; */
+}
+
+.caption-para{
+    background-color: rgba(0, 0, 0, 0.50);
+    color: White;
+    padding: 10px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.see{
+    border: 0;
+    outline: 0;
+    margin-left: 20px;
+    background: transparent;
+    font-size: 25px;
+    font-style: italic;
+    color:  #90f;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.radius{
+    border-radius: 100px;
+}
